@@ -1,0 +1,942 @@
+/*MAIN-RESPONSIVE.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains responsive style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: Glissando.*/
+/* Author: Unbranded.*/
+/* Website: http://www.unbranded.co */
+/* Copyright: (C) 2014 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*==========================*/
+/*MOBILE DEVICE OPTIMIZATION*/
+/*===========================*/
+/*Huge Displays*/
+@media (min-width: 3000px) {
+	  .menu{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	 .container{
+	    max-width:1100px;
+	}
+
+}
+
+/*Projector Screens and Ver Large Monitors*/
+@media (min-width: 2561px) {
+	  .menu{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+
+}
+
+
+/*iMac 27, HD Screens and Large Monitors*/
+@media (min-width: 1921px) and (max-width: 2560px) {
+	  .menu{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+}
+
+
+/*Large Widescreen Monitors*/
+@media (max-width: 1920px) {
+	  .menu{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+}
+
+/*Medium Widescreen Monitors*/
+@media (max-width: 1680px) {
+	  .menu{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+
+}
+
+/*Large Widescreen Laptops*/
+@media (max-width: 1440px) {
+	  .menu{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+
+}
+
+/*Common Widescreen Laptops*/
+@media (max-width: 1366px) {
+	  .menu{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+
+}
+
+
+/*Very Large Tablets and Medium Laptops*/
+@media (max-width: 1280px) {
+	.menu{
+	 	display: none;
+	 	visibility: hidden;
+	}
+	.section-no-sland-padding{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+}
+
+/*Notebooks and Small Laptops*/
+@media (max-width: 1152px) {
+	.menu{
+	 	display: none;
+	 	visibility: hidden;
+	}
+	svg.sland-type1{
+		width: 105%;
+		height: 150px;
+	}
+	svg.sland-type2{
+		width: 105%;
+		height: 150px;
+	}
+	.home h1{
+		width: 85%;
+	}
+	.portfolio-item{
+		height: 236px;
+	}
+	.portfolio-item img{
+		height: 236px;
+	}
+	.portfolio-item-mask{
+		height: 236px;
+		padding-top: 105px;
+	}
+
+
+}
+
+/*iPad Landscape Mode and Large Tablets */
+@media (max-width: 1024px) {
+	.menu{
+	 	display: none;
+	 	visibility: hidden;
+	}
+	.container{
+		width: 970px;
+	}
+	svg.sland-type1{
+		width: 104%;
+		height: 150px;
+	}
+	svg.sland-type2{
+		width: 104%;
+		height: 150px;
+	}
+	.home h1{
+		font-size: 40px;
+		line-height: 47px;
+	}
+
+	.slider-directional.owl-theme .owl-controls .owl-buttons div{
+		display: none;
+	}
+	.pagination-slider.owl-theme .owl-controls .owl-page span{
+ 		display: none;
+ 	}
+
+ 	.footer .home-button{
+		top: -56px;
+	}
+
+}
+
+/*Small Desktop and Very Small Notebook */
+@media (max-width: 960px) {
+	.menu{
+	 	display: none;
+	 	visibility: hidden;
+	}
+	.container{
+		width: 900px;
+	}
+	svg.sland-type1{
+		height: 100px;
+	}
+	svg.sland-type2{
+		height: 100px;
+	}
+	.section-padding{
+		padding-top: 50px;
+		padding-bottom: 150px;
+	}
+	.section-padding-medium{
+		padding-top: 50px;
+		padding-bottom: 100px;
+	}
+	.section-padding-small{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.home h1{
+		font-size: 40px;
+		line-height: 47px;
+	}
+	.home h1::before {
+		width: 200px;
+		height: 2px;
+	}
+	.home h1::after {
+		width: 200px;
+		height: 2px;
+	}
+
+	.portfolio-filter ul.pad-top-half{
+		padding-top: 40px;
+	}
+
+	.team-column{
+		padding-top: 40px;
+	}
+
+	.testimonial.add-top-half{
+		margin-top: 40px;
+	}
+	.testimonial{
+		padding-top: 5px;
+	}
+	.contact{
+		padding-top: 100px;
+	}
+	.footer .home-button {
+    	top: -78px;
+	}
+	.blog-innerpage-home-pad{
+		padding-top: 85px;
+		padding-bottom: 85px;
+	}
+	.blog-post h3{
+		font-size: 22px;
+		line-height: 29px;
+	}
+
+
+}
+
+/*Medium Tablets */
+@media (max-width: 800px) {
+	.menu{
+	 	display: none;
+	 	visibility: hidden;
+	}
+	.container{
+		width: 740px;
+	}
+	.button-style-1{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 18px;
+		padding-right: 18px;
+		font-size: 14px;
+		line-height: 21px;
+		border: 2px solid #dcdcdc;
+	}
+	.button-style-2{
+		margin-top: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 22px;
+		padding-right: 22px;
+		font-size: 14px;
+		line-height: 21px;
+		border: 2px solid #fff;		
+	}
+
+}
+
+/*iPad Portrait Mode, iPad Mini and Small Tablets */
+@media (max-width: 768px) {
+	.menu{
+	 	display: block;
+	 	visibility: visible;
+	 }
+	 .header{
+		display: none;
+	}
+	.container{
+	    max-width: 718px;
+	}
+	svg.sland-type1{
+		width: 105.25%;
+	}
+	svg.sland-type2{
+		width: 105.25%;
+	}
+	.section-text{
+		font-size: 15px;
+		line-height: 22px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.section-no-sland-padding{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.section-no-sland-padding-footer{
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}	
+	p{
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.title-primary h3{
+		font-size: 21px;
+		line-height: 28px;
+	}
+	.title-primary h3:after{
+		margin-top: 18px;
+	}	
+	.title-secondary h3{
+		font-size: 21px;
+		line-height: 28px;
+	}
+	.title h3{
+		font-size: 21px;
+		line-height: 28px;
+	}
+
+	.home h1{
+		font-size: 35px;
+		line-height: 42px;
+	}
+	.home h1::before {
+		width: 180px;
+		height: 2px;
+		margin-bottom: 45px;
+	}
+	.home h1::after {
+		width: 180px;
+		height: 2px;
+		margin-top: 45px;
+	}
+
+	.portfolio-filter.pad-top-half{
+		padding-top: 15px;
+	}
+	.portfolio-item{
+		width: 47.5%;
+		height: 246px;
+		margin-bottom: 12px;
+		margin-left: 11px;
+	}
+	.portfolio-item img{
+		height: 246px;
+	}
+	.portfolio-item-mask{
+		height: 246px;
+		padding-top: 100px;
+	}
+
+	.services-column{
+		padding-top: 40px;
+	}
+	.services-column div{
+		margin-top: 25px;
+	}
+	.services-column h5{
+		font-size: 14px;
+		padding-top: 5px;
+		padding-bottom: 0px;
+	}
+	.services-column p{
+		font-size: 13px;
+		line-height: 20px;
+	}	
+	.services-icon-font:before{
+		font-size: 30px;
+	}
+
+	.team-member-social-links{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		bottom: 0px;
+		opacity: 1;
+	}
+	.team-member-social-links img{
+		width: 40px !important;
+		height: 40px !important;
+	}
+	.team-item-wrap img:first-child{
+		width: 100%;
+	}
+
+	.testimonial{
+		margin-top: 30px;
+		margin-bottom: 10px;
+		padding: 25px;
+	}
+	.testimonial-owl .owl-pagination span{
+		width: 50px !important;
+		height: 50px !important;
+	}
+	.testimonial-owl .owl-pagination span img{
+		width: 50px !important;
+		height: 50px !important;
+	}
+	.partner{
+		margin-left: 0px;
+		padding-top: 15px;
+	}
+	.partner a{
+		margin-right: 0px;
+	}
+
+	.quote h2{
+		font-size: 25px;
+		line-height: 32px;
+		padding-top: 0px;
+	}
+	.quote .pad-bottom{
+		padding-bottom: 90px;
+	}
+
+	.pricing-table-column{
+		margin-bottom: 20px;
+	}
+	.pricing-table-column h2{
+		padding-top: 30px;
+	}
+	.pricing-table-column ul li{
+		font-size: 13px;
+		line-height: 20px;
+		margin-bottom: 15px;
+	}
+	.price-band{
+	    height: 120px;
+	    width: 120px;
+	}
+
+	.pad-top{
+		padding-top: 100px !important;
+	}
+
+	.contact-info{
+		text-align: left;
+	}
+	.contact-form button{
+		font-size: 14px;
+		line-height: 21px;
+		padding: 12px 18px;
+		color: #fff;
+		border: 2px #dcdcdc solid;
+	}	
+	.innerpage-home-pad{
+		padding-top: 65px;
+		padding-bottom: 65px;
+	}
+	.video-wrap iframe{
+		height: 360px;
+	}
+	
+}	
+
+/*Medium Smart Phones v2*/
+@media screen and (max-width: 640px) {
+	.container{
+		width: 600px;
+	}
+	.home h1{
+		width: 80%
+	}
+	.down-scroll{
+		display: none;
+	}
+	.section-text{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.services-column{
+		width: 60%;
+		margin-left: 20%;
+	}
+	.team-column{
+		padding-top: 50px;
+	}
+	.pricing-table-column{
+		margin-bottom: 25px;
+		width: 50%;
+		margin-left:25%;
+	}
+	.contact-info{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.contact-info-content{
+		text-align: right;
+	}
+	.contact-info-content p{
+		text-align: left;
+	}
+	.contact-form button{
+		font-size: 14px;
+		line-height: 21px;
+		padding: 12px 18px;
+		color: #fff;
+		border: 2px #dcdcdc solid;
+		float: none;
+	}
+	.blog-posts.pad-bottom{
+		padding-bottom: 70px;
+	}
+	.blog-post h3{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.blog-comment-image{
+		display: none;
+	}
+	.blog-post-contact{
+		padding-top: 50px;
+	}
+
+	.thanks-home p{
+		font-size: 80px;
+		line-height: 87px;
+	}
+	.thanks-home span{
+		font-size: 25px;
+		line-height: 32px;
+	}
+	.video-wrap iframe{
+		height: 360px;
+	}
+
+} 
+
+/*Google Nexus and Other Large Smart Phones v1*/
+@media screen and (max-width: 600px) {
+	.container{
+		width: 560px;
+	}
+	.section-padding{
+		padding-top: 50px;
+		padding-bottom: 100px;
+	}
+	.section-no-sland-padding{
+		padding-top: 75px;
+		padding-bottom: 75px;
+	}
+	.section-padding-small{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}	
+
+} 
+
+/*iPhone Landscape Mode and Mediium Smart Phones*/
+@media screen and (max-width: 480px) {
+	.container{
+		width: 440px;
+	}
+	.section-no-sland-padding{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.section-padding{
+		padding-top: 50px;
+		padding-bottom: 100px;
+	}
+	.section-padding-small{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}	
+	p{
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.button-style-1{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 12px;
+		padding-right: 12px;
+		font-size: 13px;
+		line-height: 20px;
+		border: 2px solid #dcdcdc;
+	}
+	.button-style-2{
+		margin-top: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 18px;
+		padding-right: 18px;
+		font-size: 13px;
+		line-height: 20px;
+		border: 2px solid #fff;		
+	}
+
+	.title-primary h3{
+		font-size: 21px;
+		line-height: 28px;
+	}
+	.title-primary h3:after{
+		margin-top: 12px;
+	}	
+	.title-secondary h3{
+		font-size: 21px;
+		line-height: 28px;
+	}
+	.title h3{
+		font-size: 21px;
+		line-height: 28px;
+	}
+
+	.home-captiion h1{
+		width: 75%;
+	}
+	.home h1{
+		font-size: 28px;
+		line-height: 35px;
+		width: 80%;
+	}
+	.home h1::before {
+		width: 150px;
+		height: 1px;
+		margin-bottom: 25px;
+	}
+	.home h1::after {
+		width: 150px;
+		height: 1px;
+		margin-top: 25px;
+	}
+
+	.portfolio-item{
+		width: 47.5%;
+		height: 196px;
+	}
+	.portfolio-item img{
+		height: 196px;
+	}
+	.portfolio-item-mask{
+		height: 196px;
+		padding-top: 80px;
+	}
+	.portfolio-item-mask h5{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.portfolio-item-mask h6{
+		font-size: 12px;
+		line-height: 19px;
+	}
+
+	.team-member-social-links img{
+		width: 30px !important;
+		height: 30px !important;
+		margin-right: 3px;
+	}
+	.team-member-social-links{
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	.team-item-wrap img:first-child{
+		width: 100%;
+	}
+
+	.testimonial{
+		margin-top: 30px;
+		margin-bottom: 10px;
+		padding: 25px;
+	}
+	.testimonial-owl .owl-pagination span{
+		width: 50px !important;
+		height: 50px !important;
+	}
+	.testimonial-owl .owl-pagination span img{
+		width: 50px !important;
+		height: 50px !important;
+	}
+	.partner{
+		margin-left: 0px;
+		padding-top: 15px;
+	}
+	.partner a{
+		margin-right: 0px;
+	}
+
+	.quote h2{
+		font-size: 25px;
+		line-height: 32px;
+		padding-top: 0px;
+	}
+	.quote .pad-bottom{
+		padding-bottom: 90px;
+	}
+
+	.pricing-table-column{
+		margin-bottom: 20px;
+	}
+
+	.contact-info p{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.contact-form button{
+		font-size: 12px;
+		line-height: 19px;
+		padding: 10px 15px;
+		color: #fff;
+		border: 2px #dcdcdc solid;
+	}
+	.video-wrap iframe{
+		height: 240px;
+	}
+}
+/*Other Major Small Smart Phones*/
+@media screen and (max-width: 360px) {
+	body{
+		width: 100%;
+		overflow-x: hidden; 
+	}
+	.container{
+		width: 340px;
+	}
+	.section-text{
+		font-size: 12px;
+		line-height: 19px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.section-padding{
+		padding-top: 50px;
+		padding-bottom: 100px;
+	}
+	.section-padding-small{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.section-padding-medium{
+		padding-top: 50px;
+		padding-bottom: 100px;
+	}
+	svg.sland-top{
+		left: 0px;
+	}
+	svg.sland-bottom{
+		left: 0px;
+	}
+	svg.sland-type1{
+		height: 50px;
+		width: 100%; 
+	}
+	svg.sland-type2{
+		height: 50px;
+		width: 100%;
+
+	}	
+	p{
+		font-size: 12px;
+		line-height: 19px;
+	}
+
+	.button-style-1{
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 12px;
+		line-height: 19px;
+		border: 2px solid #dcdcdc;
+	}
+	.button-style-2{
+		margin-top: 20px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 12px;
+		line-height: 19px;
+		border: 2px solid #fff;		
+	}
+
+	.title-primary h3{
+		font-size: 19px;
+		line-height: 26px;
+	}
+	.title-primary h3:after{
+		margin-top: 12px;
+	}	
+	.title-secondary h3{
+		font-size: 19px;
+		line-height: 26px;
+	}
+	.title h3{
+		font-size: 19px;
+		line-height: 26px;
+	}
+
+	.header{
+		display: none;
+	}
+	.menu{
+		display: block;
+		visibility:visible;
+	}
+
+	.home h1{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.home h1::before {
+		width: 125px;
+		height: 1px;
+		margin-bottom: 25px;
+	}
+	.home h1::after {
+		width: 125px;
+		height: 1px;
+		margin-top: 25px;
+	}
+	
+	.portfolio-filter ul li{
+		margin-right: 15px;
+		font-size: 12px;
+		line-height: 19px;
+	}
+
+	.portfolio-item{
+		width: 100%;
+		height: 246px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.portfolio-item img{
+		height: 246px;
+	}
+	.portfolio-item-mask{
+		height: 246px;
+		padding-top: 100px;
+	}
+	.portfolio-item-mask h5{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.portfolio-item-mask h6{
+		font-size: 12px;
+		line-height: 19px;
+	}
+
+	.services-icon-font:before{
+		font-size: 35px;
+	}
+
+	.team-member-social-links{
+		bottom: 0px;
+		opacity: 1;
+	}
+	.team-member-social-links img{
+		width: 35px;
+		height: 35px;
+	}
+
+	.testimonial{
+		margin-top: 30px;
+		margin-bottom: 10px;
+		padding: 25px;
+	}
+	.testimonial-owl .owl-pagination span{
+		width: 40px !important;
+		height: 40px !important;
+	}
+	.testimonial-owl .owl-pagination span img{
+		width: 40px !important;
+		height: 40px !important;
+	}
+	.partners.pad-top-half{
+		padding-top: 35px;
+	}
+
+	.quote h2{
+		font-size: 25px;
+		line-height: 32px;
+		padding-top: 0px;
+	}
+	.quote p{
+	 	padding-bottom: 0px;
+	}
+
+	.pricing-table-column{
+		width: 70%;
+		margin-left: 15%;
+		margin-bottom: 20px;
+	}
+	.contact{
+		padding-top: 50px;
+	}
+	.footer .home-button {
+    	top: -56px;
+	}
+}
+/*iPhone Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+
+	.container{
+		width: 300px;
+	}
+	.section-no-sland-padding{
+		padding-top: 75px;
+		padding-bottom: 75px;
+	}
+
+	.services-column{
+		padding-top: 30px;
+	}
+	.services-column div{
+		margin-top: 25px;
+	}
+	.services-column h5{
+		font-size: 14px;
+		padding-top: 5px;
+		padding-bottom: 0px;
+	}	
+	.services-icon-font:before{
+		font-size: 30px;
+	}
+
+	.pad-top{
+		padding-top: 100px !important;
+	}
+
+	.pricing-table-column{
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	.contact-info{
+		text-align: center;
+	}
+	.contact-form button{
+		font-size: 12px;
+		line-height: 19px;
+		padding: 10px 15px;
+		border: 2px #dcdcdc solid;
+	}
+	.alert-error p{
+		font-size: 16px !important;
+		line-height: 23px !important;
+	}
+
+	.footer .home-button{
+		top: -56px;
+	}
+
+}

@@ -1,0 +1,174 @@
+/*FONTS.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2013 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* CUSTOM FONTS ARE DEFINED HERE VIA CSS3 FONT-FACE TECHNOLOGY*/
+/* More info : http://www.littleboxofideas.com/blog/tutorials/how-do-i-implement-font-face */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.section-text{
+	font-family:"Raleway";
+	font-weight: 400;
+}
+.title-primary h3{
+	font-family:"Montserrat";
+	font-weight: 700;
+}
+.title-secondary h3{
+	font-family:"Montserrat";
+	font-weight: 700;
+}	
+.title h3{
+	font-family:"Montserrat";
+	font-weight: 700;
+}
+.home h1 {
+	font-family:"Montserrat";
+	font-weight: 400;
+}
+.theme-name p{
+	font-family:"Montserrat";
+	font-weight: 700;
+}
+.header ul{
+	font-family:"Montserrat";
+	font-weight: 700;
+}
+.about p{
+	font-family:"Raleway";
+	font-weight: 400;
+}
+.button-style-1,.button-style-2{
+	font-family:"Montserrat";
+	font-weight: 400;
+}
+.works ul li{
+	font-family:"Montserrat";
+	font-weight: 400;
+}
+.portfolio-item-mask h5{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+.portfolio-item-mask h6{
+	font-family: "Raleway";
+	font-weight: 400;
+}
+.services p{
+	font-family:"Raleway";
+	font-weight: 400;
+}
+.services-column h5{
+	font-family:"Montserrat";
+	font-weight: 700;
+}	
+.team-column h4{
+	font-family:"Montserrat";
+	font-weight: 700;
+}
+.team-column h6{
+	font-family:"Montserrat";
+	font-weight: 700;
+}
+.clients p{
+	font-family:"Raleway";
+	font-weight: 400;
+}
+.quote h2{
+	font-family:"Montserrat";
+	font-weight: 700;
+}
+.quote p{
+	font-family:"Raleway";
+	font-weight: 400;
+}
+.pricing-table h5{
+	font-family:"Montserrat";
+	font-weight: 700;
+}
+.pricing-table h2{
+	font-family:"Montserrat";
+	font-weight: 700;
+}
+.pricing-table p{
+	font-family:"Montserrat";
+	font-weight: 700;
+}
+.pricing-table ul li{
+	font-family: "Raleway";
+	font-weight: 400;
+}
+.blog-content h5{
+	font-family:"Montserrat";
+	font-weight: 700;
+}
+.contact-info h4{
+	font-family: "Montserrat";
+	font-weight: 400;
+}	
+.contact-form {
+	font-family: "Raleway";
+	font-weight: 400;
+}
+.contact-form button{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+
+
+		/*Inner-Pages*/
+
+		/*Thanks page*/
+.thanks-home p{
+	font-family: "Montserrat";
+	font-weight: 700;
+}		
+.thanks-home span{
+	font-family: "Montserrat";
+	font-weight: 400;
+}		
+
+		/*Works inner page*/
+.innerpage-home h1 {
+	font-family:"Montserrat";
+	font-weight: 400;
+}	
+.works-innerpage-info h5{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+.recent-works h3{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+
+		/*Blog Inner Page*/
+.blog-type-list h5{
+	font-family: "Montserrat";
+	font-weight: 700;
+}		
+.section-innerpage h3{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+.blog-post-comments h4{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+.blog-post-link h5{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+.blog-comment-spec h5{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+.blog-post-contact h3{
+	font-family: "Montserrat";
+	font-weight: 700;
+}	
+.blog-post-contact button{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
